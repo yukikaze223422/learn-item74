@@ -1,0 +1,120 @@
+@charset 'utf-8';
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav {
+  margin-left: auto;
+  list-style: none;
+}
+
+.menu1 {
+  margin-right: 30px;
+}
+
+.menu1,
+.menu2 {
+  display: inline-block;
+}
+
+.menu1:hover,
+.menu2:hover {
+  opacity: 0.5;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.image {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.container {
+  width: 960px;
+  padding: 0 4px;
+  margin: 0 auto;
+}
+
+.about {
+  margin: 60px 0;
+  text-align: center;
+}
+
+.about h1 {
+  display: inline-block;
+  border-bottom: 1px solid #666666;
+  padding-bottom: 10px;
+}
+
+.human-message {
+  display: flex;
+  justify-content: center;
+}
+
+.human-message h2 {
+  padding: 5px 0 20px 0;
+  font-weight: bold;
+}
+
+.human-message h2,
+.human-message p {
+  padding-left: 30px;
+}
+
+.human {
+  display: inline-block;
+}
+
+.human img {
+  border-radius: 50px;
+}
+
+.pucture-message p {
+  font-size: 10px;
+}
+
+.bicycle-title {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.bicycle-top {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.bicycle-top h1 {
+  display: inline-block;
+  margin: 60px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #666666;
+}
+
+.title-text1 {
+  padding: 15px 0;
+  font-weight: bold;
+}
+
+.title-text2 {
+  font-size: 15px;
+}
+
+.footer {
+  text-align: center;
+  margin: 100px 0 10px 0;
+  font-size: 10px;
+}
